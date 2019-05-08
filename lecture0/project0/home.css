@@ -1,0 +1,39 @@
+.nav {
+  background-color: #aa0000;
+  padding: 5px;
+  margin: 0px;
+}
+.nav .menus {
+  display: flex;
+  list-style: none;
+  margin: 5px;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.nav .menu {
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #aa0000;
+  width: 200px;
+  margin: 5px;
+}
+.nav .menu:hover {
+  background-color: #ee0000;
+}
+
+.image {
+  padding: 20px;
+  margin: 20px;
+  background-position: center;
+}
+
+#MyName {
+  text-align: right;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 20px;
+  margin-right: 0px;
+}
+
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href ="home.css">
+    </head>
+    <style>
+        @media (min-width: 500px) {
+            table {
+                width: 90%;
+            }
+        }
+        @media (max-width: 499px) {
+            table{
+                width:50%;
+            }
+        }
+        th,tr,td {
+            border: 1px;
+            border-style: dashed;
+            border-collapse: collapse;
+            padding: 5px;
+            
+        }
+        th{
+            text-align: center;
+        }
+        table{
+            border: 1px;
+            border-style: dashed;
+            border-collapse: collapse;
+            padding: 5px;
+            margin: 20px 20px 20px 20px;    
+        }
+        .name{
+            width: 10%;
+        }
+        .date{
+            width:20%;
+        }
+        
+
+    </style>
+    <body>
+        <div class ="nav" >
+            <ul class="menus">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                <li class="menu" ><a href="index.html">Home</a></li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <li  class="menu" ><a href="about.html">About Me</a></li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <li class="menu" ><a href= "#">Projects</a></li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <li class="menu" ><a href="contact.html">Contact Me</a></li>
+                </div>
+            </div>
+            </ul>
+        </div> 
+        <div class="info">
+            <h1>Projects</h1>
+            <table caption="Projects">
+                <tr>
+                    <th>
+                        Sr.No.
+                    </th>
+                    <th class="name">
+                        Project Name
+                    </th>
+                    <th>
+                        Project Description
+                    </th>
+                    <th class="date">
+                        Developed on
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        1.
+                    </td>
+                    <td class="name">
+                        Bite-Bite
+                    </td>
+                    <td>
+                        Developed a game of snake-apple using PyGame module as a mini project. Features are: Start Menu, Pause/Resume, High score. Used pygame for mouse & key interaction, graphics.
+                    </td>
+                    <td class="date">
+                        February 2019 - March 2019
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2.
+                    </td>
+                    <td class="name">
+                        Break-The-Wall
+                    </td>
+                    <td>
+                        Developed a game of Brick Breaker using Java GUI widgets and Java Graphics. Implemented Object Oriented Analysis and Design concepts of Java in project. Features of game are: UI for Main Menu, UI for Settings, Pause/Resume, Levels.
+                    </td>
+                    <td class="date">
+                        March 2019 - April 2019
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3.
+                    </td>
+                    <td class="name">
+                        Jurassic World
+                    </td>
+                    <td>
+                            Created a website for park management system to allow users booking of tour package (ticket + hotel), cancellation of tour, ask queries, give review, view his/her dashboard, can discover about any dinosaur. Allows admin to update hotels, packages, add/update dinosaur info., view the tickets booked, reply to queries through email.
+                    </td>
+                    <td class="date">
+                        September 2018 - November 2018
+                    </td>
+                </tr>
+            </table>   
+    </body>
+</html>

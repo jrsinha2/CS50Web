@@ -1,0 +1,35 @@
+.info h1 {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.info fieldset {
+    margin: 5px;
+    padding: 5px;
+    width: 30%;
+}
+.info > ul {
+    list-style-type: none;
+
+}
+
+input[type=text],input[type=email] {
+    background-color: #ffffee;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.form button{
+    width: 100px;
+    background-color: darkkhaki;
+    font-style: bold;
+    font-size: 15px;
+    
+}

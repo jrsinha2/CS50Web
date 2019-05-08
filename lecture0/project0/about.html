@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href ="home.css">
+    </head>
+    <style>
+        @media (min-width: 500px) {
+            table {
+                width: 90%;
+            }
+        }
+        @media (max-width: 499px) {
+            table{
+                width:50%;
+            }
+        }
+        th,tr,td {
+            border: 1px;
+            border-style: dashed;
+            border-collapse: collapse;
+            padding: 5px;
+            
+        }
+        th{
+            text-align: center;
+        }
+        table{
+            border: 1px;
+            border-style: dashed;
+            border-collapse: collapse;
+            padding: 5px;
+            margin: 20px 20px 20px 20px;    
+        }
+        .name{
+            width: 10%;
+        }
+        .date{
+            width:20%;
+        }
+        
+
+    </style>
+    <body>
+        <div class ="nav" >
+            <ul class="menus">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                <li class="menu" ><a href="index.html">Home</a></li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <li  class="menu" ><a href="#">About Me</a></li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <li class="menu" ><a href= "project.html">Projects</a></li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <li class="menu" ><a href="contact.html">Contact Me</a></li>
+                </div>
+            </div>
+            </ul>
+        </div> 
+        <div class="info">
+            <h1 style="text-align: center;">About Me</h1>
+            
+            <table caption="Education">
+                <tr>
+                    <th>
+                        Examination
+                    </th>
+                    <th class="name">
+                        University/Board
+                    </th>
+                    <th>
+                        Institiute
+                    </th>
+                    <th class="date">
+                        Passing Year
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Graduation
+                    </td>
+                    <td class="name">
+                        MNIT JAIPUR
+                    </td>
+                    <td>
+                        MNIT JAIPUR
+                    </td>
+                    <td class="date">
+                        2020
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Senior Secondary
+                    </td>
+                    <td class="name">
+                        CBSE
+                    </td>
+                    <td>
+                        Lions English School, Silvassa
+                    </td>
+                    <td class="date">
+                        2016
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Secondary
+                    </td>
+                    <td class="name">
+                        CBSE
+                    </td>
+                    <td>
+                        Laxmi International School,Sarigam
+                    </td>
+                    <td class="date">
+                        2014
+                    </td>
+                </tr>
+            </table>   
+    </body>
+</html>
